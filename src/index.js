@@ -1,13 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import Subscribe from "./Subscribe";
+import Header from "./components/Header";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Header />
+      <Switch>
+        <Route path="/" exact component={App} />
+        <Route path="/subscribe" exact component={Subscribe} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
