@@ -30,7 +30,7 @@ const Header = () => {
             <a href="/#contact" title="Reach us">
               Contact
             </a>
-            <Link to="/Subscribe" title="Become a Member!">
+            <Link to="/subscribe" title="Become a Member!">
               Subscribe
             </Link>
           </li>

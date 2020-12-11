@@ -21,16 +21,16 @@ const Footer = () => {
             <h3 className="highlight">Categories</h3>
             <ul>
               <li>
-                <a href="#mens">Men's Wear</a>
+                <a href="/#mens">Men's Wear</a>
               </li>
               <li>
-                <a href="#womens">Women's Wear</a>
+                <a href="/#womens">Women's Wear</a>
               </li>
               <li>
-                <a href="#boys">Boy's Wear</a>
+                <a href="/#boys">Boy's Wear</a>
               </li>
               <li>
-                <a href="#girls">Girl's Wear</a>
+                <a href="/#girls">Girl's Wear</a>
               </li>
             </ul>
           </div>

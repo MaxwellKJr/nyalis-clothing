@@ -38,7 +38,7 @@ function Contact() {
           <input
             type="email"
             name="email"
-            placeholder="Enter email to subscribe"
+            placeholder="Subscribe to our newsletter"
           />
           <button className="button-solid" name="submit">
             Subscribe

@@ -1,6 +1,7 @@
 /* CLASSES TO BE RE-USED THROUGHOUT */
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 .container {
@@ -138,14 +139,6 @@ body {
 #header .nav-links a:hover {
   background: #333333dc;
 }
-/* 
-@media (max-width: 990px) {
-  #header .main-nav,
-  #header .nav-links {
-    flex-direction: column;
-    height: 100%;
-  }
-} */
 
 /* WELCOME AREA */
 #welcome {
