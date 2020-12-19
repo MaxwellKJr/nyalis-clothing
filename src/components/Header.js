@@ -3,6 +3,16 @@ import { Link } from "react-router-dom";
 import "./css/Header.css";
 
 const Header = () => {
+  const burgerMenuToggle = () => {
+    const menu = document.querySelector("#header .nav-links");
+    menu.classList.toggle("active");
+  };
+
+  const removeMenu = () => {
+    const menu = document.querySelector("#header .nav-links");
+    menu.classList.remove("active");
+  };
+
   return (
     <header id="header">
       <nav className="main-nav">
@@ -12,29 +22,37 @@ const Header = () => {
 
         <ul className="nav-links">
           <li>
-            <a href="/#" title="Home">
+            <a href="/#" title="Home" onClick={removeMenu}>
               Home
             </a>
           </li>
           <li>
-            <a href="/#categories" title="What's offered">
+            <a href="/#categories" title="What's offered" onClick={removeMenu}>
               Categories
             </a>
           </li>
           <li>
-            <a href="/#about" title="Know us">
+            <a href="/#about" title="Know us" onClick={removeMenu}>
               About
             </a>
           </li>
           <li>
-            <a href="/#contact" title="Reach us">
+            <a href="/#contact" title="Reach us" onClick={removeMenu}>
               Contact
             </a>
-            <Link to="/subscribe" title="Become a Member!">
+          </li>
+          <li>
+            <Link to="/subscribe" title="Become a Member!" onClick={removeMenu}>
               Subscribe
             </Link>
           </li>
         </ul>
+
+        <div className="burger" onClick={burgerMenuToggle}>
+          <div className="burgerLine"></div>
+          <div className="burgerLine"></div>
+          <div className="burgerLine"></div>
+        </div>
       </nav>
     </header>
   );

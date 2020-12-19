@@ -26,6 +26,14 @@ const DonateForm = () => {
           />{" "}
           <br />
           <input
+            type="number"
+            name="donationAmount"
+            placeholder="Amount to donate (in Kwacha):"
+            min="50"
+            required
+          />{" "}
+          <br />
+          <input
             type="password"
             name="password"
             placeholder="Enter password"
