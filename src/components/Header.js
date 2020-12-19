@@ -42,7 +42,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <Link to="/subscribe" title="Become a Member!" onClick={removeMenu}>
+            <Link to="/donate" title="Become a Member!" onClick={removeMenu}>
               Subscribe
             </Link>
           </li>

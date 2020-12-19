@@ -28,6 +28,12 @@
   opacity: 0;
 }
 
+.donation-form h1 {
+  color: #fff;
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+}
+
 .donation-form input {
   width: 500px;
   height: 2rem;
@@ -48,5 +54,18 @@
   text-transform: uppercase;
   height: 2.7rem;
   text-align: center;
-  /* width: 100%; */
+}
+
+@media (max-width: 640px) {
+  .donation-form h1 {
+    font-size: 2rem;
+  }
+
+  .donation-form .button-solid {
+    width: 100%;
+  }
+
+  .donation-form input {
+    width: 300px;
+  }
 }

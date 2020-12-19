@@ -190,6 +190,16 @@ body {
   opacity: 0;
 }
 
+#welcome .buttons {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+#welcome .buttons .button-solid {
+  margin: 0 0.5rem;
+  padding: 0.8rem 1.1rem;
+}
+
 /* CATEGORIES */
 #categories {
   background: #ffe3c3;
@@ -374,11 +384,11 @@ body {
 
   #header .main-nav {
     position: relative;
+    z-index: 1;
   }
 
   #header .nav-links {
-    /* background: #ff8800dc; */
-    background: #000000dc;
+    background: #000000;
     flex-direction: column;
     justify-content: space-around;
     position: absolute;

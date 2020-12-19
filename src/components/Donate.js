@@ -5,11 +5,7 @@ const DonateForm = () => {
   return (
     <form method="POST" className="donation-form">
       <div className="container">
-        <h1
-          style={{ color: "#fff", fontSize: "2.7rem", marginBottom: "1.5rem" }}
-        >
-          Become a member
-        </h1>
+        <h1>Become a member</h1>
         <form>
           <input
             type="text"

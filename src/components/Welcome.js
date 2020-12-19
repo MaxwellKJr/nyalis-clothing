@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -15,7 +16,15 @@ const Welcome = () => {
             <span className="highlight">saving</span> children in Africa and
             Midland Asia!
           </p>
-          <button className="button-solid">Subscribe</button>
+          <div className="buttons">
+            <a href="/#contact" className="button-solid">
+              Subscribe
+            </a>
+
+            <Link to="/donate" className="button-solid">
+              Donate
+            </Link>
+          </div>
         </div>
       </div>
     </section>

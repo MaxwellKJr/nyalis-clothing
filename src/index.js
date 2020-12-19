@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Subscribe from "./Subscribe";
+import Donate from "./Donate";
 import Header from "./components/Header";
 import reportWebVitals from "./reportWebVitals";
 
@@ -13,7 +13,7 @@ ReactDOM.render(
       <Header />
       <Switch>
         <Route path="/" exact component={App} />
-        <Route path="/subscribe" exact component={Subscribe} />
+        <Route path="/donate" exact component={Donate} />
       </Switch>
     </Router>
   </React.StrictMode>,
