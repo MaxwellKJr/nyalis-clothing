@@ -53,7 +53,7 @@
   font-size: 1rem;
   text-transform: uppercase;
   height: 2.7rem;
-  text-align: center;
+  text-align: center !important;
 }
 
 @media (max-width: 640px) {
@@ -66,6 +66,6 @@
   }
 
   .donation-form input {
-    width: 300px;
+    width: 265px;
   }
 }

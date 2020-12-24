@@ -8,6 +8,7 @@ function Categories() {
   return (
     <section id="categories">
       <div className="container">
+        <h1>Categories</h1>
         <div className="grid-4">
           <div className="grid-item">
             <a href="#mens">

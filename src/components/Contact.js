@@ -1,4 +1,5 @@
 import React from "react";
+import Socials from "./Socials";
 
 function Contact() {
   return (
@@ -44,6 +45,8 @@ function Contact() {
             Subscribe
           </button>
         </form>
+
+        <Socials />
       </div>
     </section>
   );
