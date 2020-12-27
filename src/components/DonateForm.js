@@ -5,7 +5,7 @@ const DonateForm = () => {
   return (
     <div className="donation-form">
       <div className="container">
-        <h1>Become a member</h1>
+        <h1>Take a moment & donate</h1>
         <form method="POST">
           <input
             type="text"

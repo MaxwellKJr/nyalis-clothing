@@ -43,7 +43,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="/donate" title="Become a Member!" onClick={removeMenu}>
-              Subscribe
+              Donate
             </Link>
           </li>
         </ul>
