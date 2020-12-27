@@ -6,7 +6,6 @@ import App from "./pages/Home";
 import Donate from "./pages/Donate";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./font-awesome/all";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

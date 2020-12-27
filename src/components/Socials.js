@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 import "./css/Socials.css";
 
 const Socials = () => {
@@ -13,7 +20,10 @@ const Socials = () => {
           rel="noreferrer"
           title="On Twitter"
         >
-          <i className="fab fa-twitter fa-2x social-link-icon"></i>
+          <FontAwesomeIcon
+            className="social-link-icon fa-2x"
+            icon={faTwitter}
+          />
         </a>
         <a
           href="https://facebook.com/maxwelljr.kapezi"
@@ -22,7 +32,10 @@ const Socials = () => {
           rel="noreferrer"
           title="On Facebook"
         >
-          <i className="fab fa-facebook fa-2x social-link-icon"></i>
+          <FontAwesomeIcon
+            className="social-link-icon fa-2x"
+            icon={faFacebook}
+          />
         </a>
         <a
           href="https://instagram.com/_maxwellkjr"
@@ -31,7 +44,10 @@ const Socials = () => {
           rel="noreferrer"
           title="On IG"
         >
-          <i className="fab fa-instagram fa-2x social-link-icon"></i>
+          <FontAwesomeIcon
+            className="social-link-icon fa-2x"
+            icon={faInstagram}
+          />
         </a>
         <a
           href="https://wa.me/265992800255"
@@ -40,7 +56,10 @@ const Socials = () => {
           rel="noreferrer"
           title="On WhatsApp"
         >
-          <i className="fab fa-whatsapp fa-2x social-link-icon"></i>
+          <FontAwesomeIcon
+            className="social-link-icon fa-2x"
+            icon={faWhatsapp}
+          />
         </a>
       </div>
     </div>
