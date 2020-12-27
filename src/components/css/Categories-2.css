@@ -1,0 +1,25 @@
+/* CATEGORIES SECTION 2 */
+#categories-2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#categories-2 .category {
+  padding: 2rem 0;
+}
+
+#categories-2 img {
+  width: 100%;
+}
+
+#categories-2 .grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+#categories-2 .grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}

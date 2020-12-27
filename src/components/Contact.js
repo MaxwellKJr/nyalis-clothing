@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "./Socials";
+import "./css/Contact.css";
 
 function Contact() {
   return (

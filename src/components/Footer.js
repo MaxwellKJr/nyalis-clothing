@@ -1,4 +1,7 @@
 import React from "react";
+import Socials from "./Socials";
+import "./css/Socials.css";
+import "./css/Footer.css";
 
 const Footer = () => {
   return (
@@ -16,6 +19,7 @@ const Footer = () => {
               If you would like to donate or ask for any queries pleas email us
               at <span className="highlight">info@flossysclothing.shop</span>
             </p>
+            <Socials />
           </div>
           <div className="links grid-item">
             <h3 className="highlight">Categories</h3>

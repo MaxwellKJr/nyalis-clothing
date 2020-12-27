@@ -1,0 +1,26 @@
+/* ABOUT AREA */
+#about {
+  padding: 80px 0;
+}
+
+#about img {
+  width: 100%;
+}
+
+#about .grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 32px;
+}
+
+#about .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 570px) {
+  #about .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}

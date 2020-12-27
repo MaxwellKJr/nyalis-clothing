@@ -6,6 +6,7 @@ import Wmwear1 from "../images/wmwear-1.jpg";
 import Wmwear2 from "../images/wmwear-2.webp";
 import Bwear from "../images/boyswear.jpg";
 import Boys from "../images/boys.jpg";
+import "./css/Categories-2.css";
 
 function Categories2() {
   return (

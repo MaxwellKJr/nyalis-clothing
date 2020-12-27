@@ -3,6 +3,7 @@ import Mens from "../images/mens.jpg";
 import Womens from "../images/womens.jpg";
 import Boys from "../images/boys.jpg";
 import Girls from "../images/girls.jpg";
+import "./css/Categories.css";
 
 function Categories() {
   return (

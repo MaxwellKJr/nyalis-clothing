@@ -3,10 +3,10 @@ import "./css/DonateForm.css";
 
 const DonateForm = () => {
   return (
-    <form method="POST" className="donation-form">
+    <div className="donation-form">
       <div className="container">
         <h1>Become a member</h1>
-        <form>
+        <form method="POST">
           <input
             type="text"
             name="username"
@@ -41,7 +41,7 @@ const DonateForm = () => {
           </button>
         </form>
       </div>
-    </form>
+    </div>
   );
 };
 

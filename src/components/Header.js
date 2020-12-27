@@ -16,15 +16,15 @@ const Header = () => {
   return (
     <header id="header">
       <nav className="main-nav">
-        <a href="/#" className="logo" title="Simply Elegant">
+        <Link to="/" className="logo" title="Simply Elegant">
           Flossy's
-        </a>
+        </Link>
 
         <ul className="nav-links">
           <li>
-            <a href="/#" title="Home" onClick={removeMenu}>
+            <Link to="/" title="Home" onClick={removeMenu}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
             <a href="/#categories" title="What's offered" onClick={removeMenu}>

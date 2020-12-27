@@ -1,5 +1,6 @@
 import React from "react";
 import Vision from "../images/vision.jpg";
+import "./css/About.css";
 
 function About() {
   return (
