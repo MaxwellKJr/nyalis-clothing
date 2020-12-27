@@ -49,10 +49,9 @@ const Header = () => {
         </ul>
 
         <div className="burger" onClick={burgerMenuToggle}>
-          {/* <div className="burgerLine"></div>
           <div className="burgerLine"></div>
-          <div className="burgerLine"></div> */}
-          <i className="fas fa-bars fa-2x"></i>
+          <div className="burgerLine"></div>
+          <div className="burgerLine"></div>
         </div>
       </nav>
     </header>

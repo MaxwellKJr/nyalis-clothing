@@ -197,7 +197,13 @@ body {
 
 #welcome .buttons .button-solid {
   margin: 0 0.5rem;
-  padding: 0.8rem 1.1rem;
+  padding: 1.2rem 1.9rem;
+  border-radius: 50px;
+}
+
+#welcome .buttons .button-solid:last-child {
+  background: #fff;
+  color: #ff8800;
 }
 
 /* CATEGORIES */
