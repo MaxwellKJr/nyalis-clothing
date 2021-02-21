@@ -19,19 +19,16 @@ function Contact() {
           <p>Perks include:</p>
           <ul>
             <li>
-              Great, amazing and
-              <span className="highlight">affordable</span>
+              Great, amazing and <span className="highlight">affordable</span>{" "}
               clothes
             </li>
             <li>Get notified of what's available anytime and anywhere</li>
             <li>Donate and see what others are donating</li>
             <li>
-              You get to
-              <span className="highlight">feed</span>,
-              <span className="highlight">dress</span>
-              and
-              <span className="highlight">educate</span>
-              children across Africa and Asia
+              You get to <span className="highlight">feed</span>,{" "}
+              <span className="highlight">dress</span> and{" "}
+              <span className="highlight">educate</span> children across Africa
+              and Asia
             </li>
           </ul>
         </div>
