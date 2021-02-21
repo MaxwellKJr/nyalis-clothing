@@ -45,7 +45,16 @@ const Footer = () => {
       <div className="copyright">
         <div className="container">
           <p className="copy">Copyright &copy; 2020 - Flossy's Clothing</p>
-          <p className="developer">Developed by Maxwell Kapezi, Jr.</p>
+          <p className="developer">
+            Developed by{" "}
+            <a
+              href="https://mjcodes.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MJ Codes
+            </a>{" "}
+          </p>
         </div>
       </div>
     </footer>

@@ -9,7 +9,7 @@ function About() {
         <div className="grid-2">
           <img src={Vision} alt="" />
           <div className="about-content">
-            <h1>Our Vision and Purpose</h1>
+            <h1>Our Vision & Purpose</h1>
 
             <p>
               Here at <span className="highlight">Flossy's Clothing</span> we
