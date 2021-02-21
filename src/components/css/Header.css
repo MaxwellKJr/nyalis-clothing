@@ -13,13 +13,13 @@
   font-weight: 900;
   color: #ffffff;
   padding: 0;
+  text-transform: capitalize;
 }
 
 #header a {
   color: #000;
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all 0.5s ease-in;
   margin: 0;
   padding: 1rem;
@@ -52,6 +52,8 @@
 #header .nav-links a {
   font-size: 13px;
   margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 #header .nav-links a:hover {
