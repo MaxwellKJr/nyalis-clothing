@@ -8,11 +8,11 @@ This is a react based website for a fictional Clothing Line, Flossy's Clothing. 
 
 It:
   - Heavily uses Flexbox and CSS Grid
-  - No Bootstrap, Materialize or any other CSS Frameworks/Libraries were uses
+  - No Bootstrap, Materialize or any other CSS Frameworks/Libraries were used
 
 ![Cards](https://www.udrop.com/file/dndR/flossys2.png)
 
-The Backend doesn't work unfortunately. Feel free to continue where I have stopped. Happy coding!
+The initial plan was to connect it to a backend with Axios but it doesn't work unfortunately. Feel free to continue where I have stopped. Happy coding!
 
 ![Contact Section](https://www.udrop.com/file/dndS/flossys1.png)
 
