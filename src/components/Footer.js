@@ -1,7 +1,8 @@
-import React from "react";
-import Socials from "./Socials";
 import "./css/Socials.css";
 import "./css/Footer.css";
+
+import React from "react";
+import Socials from "./Socials";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
             </p>
             <p>
               If you would like to donate or ask for any queries pleas email us
-              at <span className="highlight">info@flossysclothing.shop</span>
+              at <span className="highlight">info@nyalisclothing.shop</span>
             </p>
             <Socials />
           </div>
@@ -44,11 +45,13 @@ const Footer = () => {
       {/* COPYRIGHT AND DEVELOPER DETAILS */}
       <div className="copyright">
         <div className="container">
-          <p className="copy">Copyright &copy; 2020 - Flossy's Clothing</p>
+          <p className="copy">
+            Copyright &copy; 2020 - {new Date().getFullYear()} Nyali's Clothing
+          </p>
           <p className="developer">
             Developed by{" "}
             <a
-              href="https://mjcodes.netlify.app"
+              href="https://bymjcodes.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
             >

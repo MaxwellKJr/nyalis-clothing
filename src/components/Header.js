@@ -17,7 +17,7 @@ const Header = () => {
     <header id="header">
       <nav className="main-nav">
         <Link to="/" className="logo" title="Simply Elegant">
-          Flossy's
+          Nyali's
         </Link>
 
         <ul className="nav-links">

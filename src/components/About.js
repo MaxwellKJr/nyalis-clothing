@@ -12,7 +12,7 @@ function About() {
             <h1>Our Vision & Purpose</h1>
 
             <p>
-              Here at <span className="highlight">Flossy's Clothing</span> we
+              Here at <span className="highlight">Nyali's Clothing</span> we
               fight against things that affect most children in Africa and parts
               of Asia in anyway we see best.
             </p>

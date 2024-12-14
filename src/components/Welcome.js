@@ -9,7 +9,7 @@ const Welcome = () => {
       <div className="container">
         <div className="welcome-content">
           <h1 className="large">
-            Flossy's Clothing. Elegant. Cheap Modern Wear
+            Nyali's Clothing. Elegant. Cheap Modern Wear
           </h1>
           <p>
             Buy and donate clothes with the purpose of{" "}
